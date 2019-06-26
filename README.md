@@ -67,41 +67,41 @@ Compilado de configurações recomendadas durante o Bootcamp da [Rocketseat](htt
 
 ### [Spaceship](https://github.com/denysdovhan/spaceship-prompt)
 
-  Após a instalação, abra o arquivo ```~/.zshrc``` e faça a seguinte atualização:
+Após a instalação, abra o arquivo ```~/.zshrc``` e faça a seguinte atualização:
 
-  ```bash
-  # Altere o tema para spaceship
-  ZSH_THEME="spaceship"
+```bash
+# Altere o tema para spaceship
+ZSH_THEME="spaceship"
 
-  # Adicione esse trecho ao final do arquivo
-  SPACESHIP_PROMPT_ORDER=(
-    user          # Username section
-    dir           # Current directory section
-    host          # Hostname section
-    git           # Git section (git_branch + git_status)
-    hg            # Mercurial section (hg_branch  + hg_status)
-    exec_time     # Execution time
-    line_sep      # Line break
-    vi_mode       # Vi-mode indicator
-    jobs          # Background jobs indicator
-    exit_code     # Exit code section
-    char          # Prompt character
-  )
+# Adicione esse trecho ao final do arquivo
+SPACESHIP_PROMPT_ORDER=(
+  user          # Username section
+  dir           # Current directory section
+  host          # Hostname section
+  git           # Git section (git_branch + git_status)
+  hg            # Mercurial section (hg_branch  + hg_status)
+  exec_time     # Execution time
+  line_sep      # Line break
+  vi_mode       # Vi-mode indicator
+  jobs          # Background jobs indicator
+  exit_code     # Exit code section
+  char          # Prompt character
+)
 
-  SPACESHIP_PROMPT_ADD_NEWLINE=false
-  SPACESHIP_CHAR_SYMBOL="❯"
-  SPACESHIP_CHAR_SUFFIX=" "
-  ```
+SPACESHIP_PROMPT_ADD_NEWLINE=false
+SPACESHIP_CHAR_SYMBOL="❯"
+SPACESHIP_CHAR_SUFFIX=" "
+```
 
 ### [Zplugin](https://github.com/zdharma/zplugin)
 
-  Após a instalação, adicione o seguinte código ao final do arquivo ```~/.zshrc```:
+Após a instalação, adicione o seguinte código ao final do arquivo ```~/.zshrc```:
 
-  ```bash
-  zplugin light zdharma/fast-syntax-highlighting
-  zplugin light zsh-users/zsh-autosuggestions
-  zplugin light zsh-users/zsh-completions
-  ```
+```bash
+zplugin light zdharma/fast-syntax-highlighting
+zplugin light zsh-users/zsh-autosuggestions
+zplugin light zsh-users/zsh-completions
+```
 
 ## Extensões Google Chrome
 
@@ -112,3 +112,8 @@ Compilado de configurações recomendadas durante o Bootcamp da [Rocketseat](htt
 
 - [Insomnia](https://insomnia.rest/)
 - [DevDocs](https://devdocs.egoist.sh/)
+
+## Node
+
+- [nvm](https://github.com/nvm-sh/nvm)
+- [Yarn](https://yarnpkg.com/)
