@@ -6,13 +6,12 @@ Compilado de configurações recomendadas durante o Bootcamp da [Rocketseat](htt
 
 > **Obs. 2**: Alguns ajustes na configuração podem ser realizados para melhor atender à minha necessidade, nesses casos deixarei indicadas as minhas alterações
 
-
 ## VSCode
 
 ### Tema de Cores e Ícones
 
-- ```Dracula Official```
-- ```vscode-icons``` ou ```Material Icon Theme```
+- `Dracula Official`
+- `vscode-icons` ou `Material Icon Theme`
 
 ### Fontes
 
@@ -62,12 +61,11 @@ Compilado de configurações recomendadas durante o Bootcamp da [Rocketseat](htt
 
 - [Hyper](https://hyper.is/)
 
-
 ## [Oh My ZSH](https://ohmyz.sh/)
 
 ### [Spaceship](https://github.com/denysdovhan/spaceship-prompt)
 
-Após a instalação, abra o arquivo ```~/.zshrc``` e faça a seguinte atualização:
+Após a instalação, abra o arquivo `~/.zshrc` e faça a seguinte atualização:
 
 ```bash
 # Altere o tema para spaceship
@@ -95,7 +93,7 @@ SPACESHIP_CHAR_SUFFIX=" "
 
 ### [Zplugin](https://github.com/zdharma/zplugin)
 
-Após a instalação, adicione o seguinte código ao final do arquivo ```~/.zshrc```:
+Após a instalação, adicione o seguinte código ao final do arquivo `~/.zshrc`:
 
 ```bash
 zplugin light zdharma/fast-syntax-highlighting
@@ -107,13 +105,21 @@ zplugin light zsh-users/zsh-completions
 
 - React Developer Tools
 - Dracula DevTools Theme
+- JSON Viewer
 
 ## Ferramentas
 
 - [Insomnia](https://insomnia.rest/)
 - [DevDocs](https://devdocs.egoist.sh/)
+- [Docker](https://docs.docker.com/install/)
+  - [postgres](https://hub.docker.com/_/postgres)
+- [Postbird](https://electronjs.org/apps/postbird)
 
 ## Node
 
 - [nvm](https://github.com/nvm-sh/nvm)
 - [Yarn](https://yarnpkg.com/)
+
+# Sites
+
+- [md5online.org](https://www.md5online.org/)
