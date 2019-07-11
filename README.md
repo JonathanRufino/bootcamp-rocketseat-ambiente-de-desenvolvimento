@@ -114,6 +114,7 @@ zplugin light zsh-users/zsh-completions
 - [Docker](https://docs.docker.com/install/)
   - [postgres](https://hub.docker.com/_/postgres)
 - [Postbird](https://electronjs.org/apps/postbird)
+- [MongoDB Compass Community](https://www.mongodb.com/download-center/compass)
 
 ## Node
 
@@ -123,3 +124,5 @@ zplugin light zsh-users/zsh-completions
 # Sites
 
 - [md5online.org](https://www.md5online.org/)
+- [mailtrap](https://mailtrap.io/)
+- [Sentry](https://sentry.io/)
