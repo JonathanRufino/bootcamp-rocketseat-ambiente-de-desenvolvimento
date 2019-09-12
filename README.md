@@ -132,5 +132,6 @@ zplugin light zsh-users/zsh-completions
 Criando containers docker
 
 - ```docker run --name postgres -e -POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres```
+  - ```docker exec -t <docker_container_id> psql -U postgres -c "create database <database_name>"```
 - ```docker run --name mongo -p 27017:27017 -d -t mongo```
 - ```docker run --name redis -p 6379:6379 -d -t redis:alpine```
