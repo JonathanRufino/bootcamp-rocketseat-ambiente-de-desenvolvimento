@@ -126,3 +126,11 @@ zplugin light zsh-users/zsh-completions
 - [md5online.org](https://www.md5online.org/)
 - [mailtrap](https://mailtrap.io/)
 - [Sentry](https://sentry.io/)
+
+## Docker
+
+Criando containers docker
+
+- ```docker run --name postgres -e -POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres```
+- ```docker run --name mongo -p 27017:27017 -d -t mongo```
+- ```docker run --name redis -p 6379:6379 -d -t redis:alpine```
